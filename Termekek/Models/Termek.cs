@@ -23,7 +23,7 @@ namespace Termekek.Models
 
         public override string? ToString()
         {
-            return $"{Nev,-20} - {Kategoria,-13} /{Ar,8} Ft/ {Keszlet} db";
+            return $" {Nev,-20} - {Kategoria,-13} /{Ar,8} Ft/ {Keszlet} db";
         }
 
         public int Id { get; set; }
